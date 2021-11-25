@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+    padding: 15px;
+    color: ghostwhite;
+    
+ }
+ .parent{
+     display: flex;
+     flex-direction: row;
+     width: 900px;
+     height:600px;
+     text-align: center;
+     margin: 5px;
+     border: black;
+     ;
+ }
+ .child{
+     
+     margin: 30px;
+     box-shadow: gray;
+     width: 500px;
+     height:250px;
+     background-color: darkorchid;
+ }
